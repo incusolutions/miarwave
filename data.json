@@ -1,0 +1,39 @@
+{
+  "name": "emilito1",
+  "symbol": "EM",
+  "description": "esto es un rotten de prueba",
+  "seller_fee_basis_points": 400,
+  "image": "image.png",
+  "external_url": "https://rottenville.io",
+  "animation_url": "https://arweave.net/Egb3GZefeOrkonLNaGOZ1qp85FnKCVkCVXG0JfqxfuE",
+  "edition": 1,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Alpha Zone Orange "
+    }
+  ],
+  "collection": {
+    "name": "Emilito",
+    "family": "Airdrops Emilito"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "image.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6zjwY1tbb3Lc2k6TcbAMWRHx6sQEVPt5Js7Aue6NkQH5",
+        "share": 50
+      },
+      {
+        "address": "D6HxbQa7juwKoMDTUHJtJWW6WLG9gzKfRA8iQmd2oZ1x",
+        "share": 50
+      }
+    ]
+  }
+}
