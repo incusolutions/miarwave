@@ -1,0 +1,19 @@
+{
+    "name": "FerrisCrab #4",
+    "symbol": "FERRIS",
+    "uri": "https://raw.githubusercontent.com/incusolutions/miarwave/main/data.json",
+    "seller_fee_basis_points": 100,
+    "creators": [
+       
+        {
+            "address": "D6HxbQa7juwKoMDTUHJtJWW6WLG9gzKfRA8iQmd2oZ1x",
+            "verified": true,
+            "share": 50
+        },
+        {
+            "address": "6zjwY1tbb3Lc2k6TcbAMWRHx6sQEVPt5Js7Aue6NkQH5",
+            "verified": false,
+            "share": 50
+        }
+    ]
+}
