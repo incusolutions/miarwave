@@ -4,7 +4,12 @@
     "uri": "https://raw.githubusercontent.com/incusolutions/miarwave/main/data.json",
     "seller_fee_basis_points": 100,
     "creators": [
-       
+       {
+            "address": "FtnYhi6KRHAj1NsHsqrttswUxv1wShYBy2MowzgyayN8",
+            "verified": true,
+            "share": 0
+        },
+        
         {
             "address": "D6HxbQa7juwKoMDTUHJtJWW6WLG9gzKfRA8iQmd2oZ1x",
             "verified": true,
