@@ -1,21 +1,21 @@
 {
-    "name": "FerrisCrab #4",
-    "symbol": "FERRIS",
-    "uri": "https://arweave.net/N36gZYJ6PEH8OE11i0MppIbPG4VXKV4iuQw1zaq3rls",
+    "name": "PerriniNFT",
+    "symbol": "JIMM",
+    "uri": "https://raw.githubusercontent.com/incusolutions/miarwave/main/data.json",
     "seller_fee_basis_points": 100,
     "creators": [
         {
-            "address": "FtnYhi6KRHAj1NsHsqrttswUxv1wShYBy2MowzgyayN8",
+            "address": "4hSueJyqjFatCjJK4aPYSTawKaDeThGsx83s22Co2gLV",
             "verified": true,
             "share": 0
         },
         {
-            "address": "FuHSET68WZPS2fnFPJ2CHq4qMn3zfmtscNDZbMhCdVYg",
+            "address": "6zjwY1tbb3Lc2k6TcbAMWRHx6sQEVPt5Js7Aue6NkQH5",
             "verified": true,
             "share": 50
         },
         {
-            "address": "42NevAWA6A8m9prDvZRUYReQmhNC3NtSZQNFUppPJDRB",
+            "address": "D6HxbQa7juwKoMDTUHJtJWW6WLG9gzKfRA8iQmd2oZ1x",
             "verified": false,
             "share": 50
         }
