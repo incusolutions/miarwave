@@ -1,0 +1,58 @@
+{
+  "name": "Rotten Ville #234",
+  "symbol": "RV",
+  "description": "Rotten Ville is a collection of 5459 unique Rotten NFTs generated in high quality 3d. We are rotten but still good guys!!!.",
+  "seller_fee_basis_points": 400,
+  "image": "https://www.arweave.net/-5wsWdqQAg-5cOTvMQbAUfWSSjdIWtU1gkt4Cg4vWLM?ext=png",
+  "external_url": "https://rottenville.io",
+  "edition": 234,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Alpha Zone Purple "
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Wood Confused "
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Red Light "
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Thriller Rottenville "
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Dreadlocks "
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Club Master "
+    },
+    {
+      "trait_type": "Phase",
+      "value": "Alpha Mist"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://www.arweave.net/-5wsWdqQAg-5cOTvMQbAUfWSSjdIWtU1gkt4Cg4vWLM?ext=png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6zjwY1tbb3Lc2k6TcbAMWRHx6sQEVPt5Js7Aue6NkQH5",
+        "share": 50
+      },
+      {
+        "address": "D6HxbQa7juwKoMDTUHJtJWW6WLG9gzKfRA8iQmd2oZ1x",
+        "share": 50
+      }
+    ]
+  }
+}
