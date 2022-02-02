@@ -3,7 +3,7 @@
   "symbol": "RV",
   "description": "Rotten Ville is a collection of 5459 unique Rotten NFTs generated in high quality 3d. We are rotten but still good guys!!!.",
   "seller_fee_basis_points": 400,
-  "image": "https://www.arweave.net/-5wsWdqQAg-5cOTvMQbAUfWSSjdIWtU1gkt4Cg4vWLM?ext=png",
+  "image": "https://raw.githubusercontent.com/incusolutions/miarwave/main/nf.jpg",
   "external_url": "https://rottenville.io",
   "edition": 234,
   "attributes": [
@@ -34,6 +34,10 @@
     {
       "trait_type": "Phase",
       "value": "Alpha Mist"
+    },
+    {
+      "trait_type": "Transmutacion",
+      "value": "SUPREMA"
     }
   ],
   "properties": {
