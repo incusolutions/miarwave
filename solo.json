@@ -4,25 +4,6 @@
     "uri": "https://raw.githubusercontent.com/incusolutions/miarwave/main/roten.json",
     "seller_fee_basis_points": 400,
     "creators": [
-        {
-            "address": "AaDok1ZGwDTgAdeXZxuyprCdbRvAK1VzM2EvuBmTAw3E",
-            "verified": true,
-            "share": 0
-        },
-        {
-            "address": "HnWH7yeo4A9miS9LtBNLPt8RjDhqM2CRiKujEqM5tCQ1",
-            "verified": true,
-            "share": 0
-        },
-        {
-            "address": "6zjwY1tbb3Lc2k6TcbAMWRHx6sQEVPt5Js7Aue6NkQH5",
-            "verified": true,
-            "share": 50
-        },
-        {
-            "address": "D6HxbQa7juwKoMDTUHJtJWW6WLG9gzKfRA8iQmd2oZ1x",
-            "verified": false,
-            "share": 50
-        }
+       
     ]
 }
