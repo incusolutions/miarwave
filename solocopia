@@ -1,0 +1,23 @@
+{
+    "name": "PerriniNFT",
+    "symbol": "JIMM",
+    "uri": "https://raw.githubusercontent.com/incusolutions/miarwave/main/data.json",
+    "seller_fee_basis_points": 100,
+    "creators": [
+        {
+            "address": "4hSueJyqjFatCjJK4aPYSTawKaDeThGsx83s22Co2gLV",
+            "verified": true,
+            "share": 0
+        },
+        {
+            "address": "6zjwY1tbb3Lc2k6TcbAMWRHx6sQEVPt5Js7Aue6NkQH5",
+            "verified": true,
+            "share": 50
+        },
+        {
+            "address": "D6HxbQa7juwKoMDTUHJtJWW6WLG9gzKfRA8iQmd2oZ1x",
+            "verified": false,
+            "share": 50
+        }
+    ]
+}
