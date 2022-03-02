@@ -1,7 +1,7 @@
 {
     "name": "PerriniNFT",
     "symbol": "JIMM",
-    "uri": "https://raw.githubusercontent.com/incusolutions/miarwave/main/data.json",
+    "uri": "https://raw.githubusercontent.com/incusolutions/miarwave/main/roten.json",
     "seller_fee_basis_points": 100,
     "creators": [
         {
