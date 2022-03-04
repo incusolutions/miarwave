@@ -1,11 +1,11 @@
 {
-  "name": "Rotten Ville transmu #234",
+  "name": "Rotten Ville #232",
   "symbol": "RV",
-  "description": "Rotten Ville is a collection of 13 unique Rotten NFTs generated in high quality 3d. We are rotten but still good guys!!!.",
+  "description": "Rotten Ville is a collection of 333 unique Rotten NFTs generated in high quality 3d. We are rotten but still good guys!!!.",
   "seller_fee_basis_points": 400,
-  "image": "https://raw.githubusercontent.com/incusolutions/miarwave/main/nf.jpg",
+  "image": "arweave.net/onAHIQQ8lz366LknVx0FQtDwthWuZN3bijrZe0P9zyg",
   "external_url": "https://rottenville.io",
-  "edition": 234,
+  "edition": 232,
   "attributes": [
     {
       "trait_type": "Background",
@@ -13,37 +13,33 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Wood Confused "
+      "value": "Green Magnet Smile "
     },
     {
       "trait_type": "Eyes",
-      "value": "Red Light "
+      "value": "Blue Light "
     },
     {
       "trait_type": "Clothes",
-      "value": "Thriller Rottenville "
+      "value": "Grenn sports jacket "
     },
     {
       "trait_type": "Hair",
-      "value": "Dreadlocks "
+      "value": "Princess Leia "
     },
     {
       "trait_type": "Glasses",
-      "value": "Club Master "
+      "value": "Red Wirefire "
     },
     {
       "trait_type": "Phase",
-      "value": "Alpha Mist"
-    },
-    {
-      "trait_type": "Transmutacion",
-      "value": "SUPREMA"
+      "value": "Alpha Electromagnetic Radiation"
     }
   ],
   "properties": {
     "files": [
       {
-        "uri": "https://www.arweave.net/-5wsWdqQAg-5cOTvMQbAUfWSSjdIWtU1gkt4Cg4vWLM?ext=png",
+        "uri": "arweave.net/onAHIQQ8lz366LknVx0FQtDwthWuZN3bijrZe0P9zyg",
         "type": "image/png"
       }
     ],
