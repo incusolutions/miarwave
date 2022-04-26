@@ -1,0 +1,43 @@
+{
+  "name": "Rotten Ville Bust Sculptures #0",
+  "symbol": "RB",
+  "description": "Rotten Ville Bust Sculptures a special installment consisting of 999 NFTs that are part of the RottenVerse.",
+  "seller_fee_basis_points": 800,
+  "image": "https://arweave.net/yFMdAF__1hIFeAj1CaojEodZ4TuQ67J6E-tvx8TINlM",
+  "animation_url": "https://arweave.net/Egb3GZefeOrkonLNaGOZ1qp85FnKCVkCVXG0JfqxfuE",
+  "external_url": "https://rottenville.io",
+  "edition": 0,
+  "attributes": [
+    {
+      "trait_type": "Radiation",
+      "value": "Cosmic "
+    }
+  ],
+  "collection": {   
+    "name": "Transmutation Elixir",
+    "family": "Airdrops Rottenville"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "https://arweave.net/yFMdAF__1hIFeAj1CaojEodZ4TuQ67J6E-tvx8TINlM",
+        "type": "image/gif"
+      },
+      {
+        "uri": "https://arweave.net/Egb3GZefeOrkonLNaGOZ1qp85FnKCVkCVXG0JfqxfuE",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video",
+    "creators": [
+      {
+        "address": "6zjwY1tbb3Lc2k6TcbAMWRHx6sQEVPt5Js7Aue6NkQH5",
+        "share": 75
+      },
+      {
+        "address": "D6HxbQa7juwKoMDTUHJtJWW6WLG9gzKfRA8iQmd2oZ1x",
+        "share": 35
+      }
+    ]
+  }
+}
