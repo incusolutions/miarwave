@@ -20,11 +20,11 @@
   "properties": {
     "files": [
       {
-        "uri": "https://arweave.net/-g2qAFynGhfads4lLGMrVJW6fSaL8SLuEDdCBQaHCRY?ext=gif",
+        "uri": "",
         "type": "image/gif"
       },
       {
-        "uri": "0.glb",
+        "uri": "",
         "type": "video/mp4"
       }
     ],
