@@ -3,9 +3,9 @@
   "symbol": "FAKE",
   "description": "FAKE",
   "seller_fee_basis_points": 800,
-  "image": "https://arweave.net/-g2qAFynGhfads4lLGMrVJW6fSaL8SLuEDdCBQaHCRY?ext=gif",
-  "animation_url": "https://arweave.net/PdcOgDhO91OyceXfxlj0serrPA0cbUGBMlK1zAxtgu0?ext=glb",
-  "external_url": "https://rottenville.io/sculpture/",
+  "image": "",
+  "animation_url": "",
+  "external_url": "",
   "edition": 0,
   "attributes": [
     {
