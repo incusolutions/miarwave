@@ -1,0 +1,43 @@
+{
+  "name": "FAKE",
+  "symbol": "FAKE",
+  "description": "FAKE",
+  "seller_fee_basis_points": 800,
+  "image": "https://arweave.net/-g2qAFynGhfads4lLGMrVJW6fSaL8SLuEDdCBQaHCRY?ext=gif",
+  "animation_url": "https://arweave.net/PdcOgDhO91OyceXfxlj0serrPA0cbUGBMlK1zAxtgu0?ext=glb",
+  "external_url": "https://rottenville.io/sculpture/",
+  "edition": 0,
+  "attributes": [
+    {
+      "trait_type": "FAKE",
+      "value": "FAKE"
+    }
+  ],
+  "collection": {
+    "name": "FAKE",
+    "family": "FAKE"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "https://arweave.net/-g2qAFynGhfads4lLGMrVJW6fSaL8SLuEDdCBQaHCRY?ext=gif",
+        "type": "image/gif"
+      },
+      {
+        "uri": "0.glb",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "vr",
+    "creators": [
+      {
+        "address": "8vqe79fS3hecnwiZdF7fVqH9A3ZsdfTGgwgz3hMsPb1V",
+        "share": 75
+      },
+      {
+        "address": "D6HxbQa7juwKoMDTUHJtJWW6WLG9gzKfRA8iQmd2oZ1x",
+        "share": 25
+      }
+    ]
+  }
+}
