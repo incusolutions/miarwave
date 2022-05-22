@@ -1,7 +1,7 @@
 {
-  "name": "FAKE",
-  "symbol": "FAKE",
-  "description": "FAKE",
+  "name": "Not verified",
+  "symbol": "Fk",
+  "description": "Not verified",
   "seller_fee_basis_points": 800,
   "image": "",
   "animation_url": "",
@@ -9,13 +9,13 @@
   "edition": 0,
   "attributes": [
     {
-      "trait_type": "FAKE",
-      "value": "FAKE"
+      "trait_type": "Not verified",
+      "value": "Not verified"
     }
   ],
   "collection": {
-    "name": "FAKE",
-    "family": "FAKE"
+    "name": "Not verified",
+    "family": "Not verified"
   },
   "properties": {
     "files": [
