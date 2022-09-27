@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Decentralized Ecommerce</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/3.0.0-rc.5/web3.min.js" integrity="sha512-jRzb6jM5wynT5UHyMW2+SD+yLsYPEU5uftImpzOcVTdu1J7VsynVmiuFTsitsoL5PJVQi+OtWbrpWq/I+kkF4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+    <script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.js"></script>
+
+    <script src="/static/solana.js"></script>
+
+    <script type="text/javascript">
+        
+        async function transferSOL() {
+            //Changes are only here, in the beginning
+            if (window.solana.isConnected === false){
+                const resp = await window.solana.connect();
+            }
+            const pubKey = await window.solana.publicKey;
+            console.log("Public Key: ", pubKey);             
+
+            // Establishing connection
+            const connection = new web3.Connection(web3.clusterApiUrl("devnet"));
+            alert('hello2');
+
+            // I have hardcoded my secondary wallet address here. You can take this address either from user input or your DB or wherever
+            var recieverWallet = new web3.PublicKey("4iSD5Q6AnyhRHu6Uz4u1KAzXh3TwNwwQshEGhZbEXUTw");
+            alert('hello3');
+
+            // Airdrop some SOL to the sender's wallet, so that it can handle the txn fee
+            var airdropSignature = await connection.requestAirdrop(
+                provider.publicKey,
+                web3.LAMPORTS_PER_SOL,
+            );
+
+            // Confirming that the airdrop went through
+            await connection.confirmTransaction(airdropSignature);
+            console.log("Airdropped");
+
+            var transaction = new web3.Transaction().add(
+                web3.SystemProgram.transfer({
+                fromPubkey: provider.publicKey,
+                toPubkey: recieverWallet,
+                lamports: web3.LAMPORTS_PER_SOL //Investing 1 SOL. Remember 1 Lamport = 10^-9 SOL.
+                }),
+            );
+
+            // Setting the variables for the transaction
+            transaction.feePayer = await provider.publicKey;
+            let blockhashObj = await connection.getRecentBlockhash();
+            transaction.recentBlockhash = await blockhashObj.blockhash;
+
+            // Transaction constructor initialized successfully
+            if(transaction) {
+                console.log("Txn created successfully");
+            }
+            
+            // Request creator to sign the transaction (allow the transaction)
+            let signed = await provider.signTransaction(transaction);
+            // The signature is generated
+            let signature = await connection.sendRawTransaction(signed.serialize());
+            // Confirm whether the transaction went through or not
+            await connection.confirmTransaction(signature);
+
+            //Signature or the txn hash
+            console.log("Signature: ", signature);
+
+            }
+            
+    </script>
+</head>
